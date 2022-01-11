@@ -11,7 +11,7 @@ def get_files():
 
 def calculate_confidence_levels(fsd=0):
     """
-    TODO: Add comment
+    Return low, medium, or high (string) based on fsd
     """
     level = 'n/a'
     if fsd <= 13:
@@ -25,7 +25,7 @@ def calculate_confidence_levels(fsd=0):
 
 def get_confidence_level(df=None, column_name=None):
     """
-    TODO: Add comment
+    Return list of calculated confidence levels
     """
     confidence_levels = []
     for index, row in df.iterrows():
