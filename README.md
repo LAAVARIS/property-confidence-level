@@ -1,1 +1,1 @@
-# ... (AMV) Confidence Level
+# (AMV) Confidence Level
